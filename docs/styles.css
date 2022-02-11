@@ -19,7 +19,7 @@ html {
 }
 .headerBox {
     display: flex;
-    opacity: 0.5;
+    opacity: 0.75;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
