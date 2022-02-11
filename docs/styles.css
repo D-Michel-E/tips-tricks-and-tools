@@ -1,0 +1,26 @@
+* {
+    color: white;
+    font-family: Arial
+}
+html {
+    background-color: #000000;
+}
+.headerButtons {
+    height: auto;
+    text-align: center;
+    background: grey;
+    margin: 0px 5px 0px 5px;
+    border-radius: 5%
+}
+.headerBox {
+    display: flex;
+    opacity: 0.5
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+    height: 10vmin;
+    background: purple;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 10px;
+    border-radius: 1px 1px 15px 15px;
+}
