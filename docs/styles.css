@@ -9,14 +9,19 @@ html {
     background-color: #000000;
 }
 .headerButtons {
-    /*opacity: 0.5*/;
+    opacity: 0.75
+    display: inline-block;
     height: auto;
     width: auto;
+    border: none;
     text-align: center;
     background: #a81ae5;   
     margin: 0px 5px 0px 5px;
     border-radius: 5%;
     color: white;
+}
+.headeerButtons:hover {
+    opacity: 1;
 }
 .headerBox {
     display: flex;
