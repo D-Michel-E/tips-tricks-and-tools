@@ -6,7 +6,7 @@ body {
     margin: 0px;
 }
 html {
-    background-color: #000000;
+    background-image: url("img.png");
 }
 .headerButtons {
     opacity: 0.75;
