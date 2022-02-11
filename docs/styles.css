@@ -26,7 +26,7 @@ html {
 }
 .headerBox {
     display: flex;
-    backdrop-filter: blur(36px);
+    filter: blur(36px);
     opacity: 0.75;
     flex-direction: row;
     justify-content: space-around;
