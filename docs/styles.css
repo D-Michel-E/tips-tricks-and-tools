@@ -22,7 +22,7 @@ body {
     margin: 0px 5px 0px 5px;
     border-radius: 5%;
     color: white;
-    height: 75%;
+    /*height: 75%;*/
     cursor: pointer;
     transform: rotate(-90deg);
 }
@@ -40,5 +40,5 @@ body {
     background: #8515b9;
     padding: 10px 10px 10px 10px;
     margin: 0px 0px 0px 0px;
-    border-radius: 1px 1px 15px 15px;
+    border-radius: 1px 15px 15px 1px;
 }
