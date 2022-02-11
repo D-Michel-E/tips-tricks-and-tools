@@ -4,10 +4,10 @@
 }*/
 body {
     margin: 0px;
-}
-html {
     background-image: url("img.png");
 }
+/*html {
+}*/
 .headerButtons {
     opacity: 0.75;
     display: inline-block;
@@ -26,7 +26,7 @@ html {
 }
 .headerBox {
     display: flex;
-    filter: blur(36px);
+    backdrop-filter: blur(36px);
     opacity: 0.75;
     flex-direction: row;
     justify-content: space-around;
