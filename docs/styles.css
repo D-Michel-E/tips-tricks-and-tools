@@ -9,7 +9,7 @@ html {
     background-color: #000000;
 }
 .headerButtons {
-    opacity: 0.5;
+    /*opacity: 0.5*/;
     height: auto;
     width: auto;
     text-align: center;
@@ -27,6 +27,6 @@ html {
     height: 10vmin;
     background: #a81ae5;
     padding: 10px 10px 10px 10px;
-    margin: 0px 0px 0px 10px;
+    margin: 0px 10px 0px 10px;
     border-radius: 1px 1px 15px 15px;
 }
