@@ -36,6 +36,7 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 8vmin;
+    height: 100vh;
     background: #8515b9;
     padding: 10px 10px 10px 10px;
     margin: 0px 0px 0px 0px;
