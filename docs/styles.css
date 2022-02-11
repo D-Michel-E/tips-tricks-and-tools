@@ -24,6 +24,7 @@ body {
     color: white;
     height: 75%;
     cursor: pointer;
+    transform: rotate(-90deg);
 }
 .headerButtons:hover {
     opacity: 1;
