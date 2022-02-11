@@ -19,16 +19,16 @@ html {
     border-radius: 5%;
     color: white;
 }
-.headeerButtons:hover {
+.headerButtons:hover {
     opacity: 1;
 }
 .headerBox {
     display: flex;
-    opacity: 0.75;
+    opacity: 0.5;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 10vmin;
+    height: 8vmin;
     background: #a81ae5;
     padding: 10px 10px 10px 10px;
     margin: 0px 10px 0px 10px;
