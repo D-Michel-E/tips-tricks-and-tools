@@ -8,6 +8,10 @@ body {
 }
 /*html {
 }*/
+.wrappie {
+    display: flex;
+    flex-direction: row;
+}
 .headerButtons {
     opacity: 0.75;
     display: inline-block;
@@ -27,12 +31,12 @@ body {
 .headerBox {
     display: flex;
     opacity: 0.75;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 8vmin;
+    width: 8vmin;
     background: #8515b9;
     padding: 10px 10px 10px 10px;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 0px 0px 0px;
     border-radius: 1px 1px 15px 15px;
 }
