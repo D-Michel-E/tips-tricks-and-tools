@@ -9,7 +9,7 @@ html {
     background-color: #000000;
 }
 .headerButtons {
-    opacity: 0.75
+    opacity: 0.75;
     display: inline-block;
     flex: auto;
     border: none;
