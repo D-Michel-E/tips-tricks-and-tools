@@ -4,7 +4,7 @@
 }*/
 body {
     margin: 0px;
-    background-image: url("img.png");
+    background-image: url("img.png"), blur(36px);
 }
 /*html {
 }*/
@@ -26,7 +26,6 @@ body {
 }
 .headerBox {
     display: flex;
-    backdrop-filter: blur(36px);
     opacity: 0.75;
     flex-direction: row;
     justify-content: space-around;
