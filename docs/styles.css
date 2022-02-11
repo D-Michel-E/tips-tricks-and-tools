@@ -1,7 +1,7 @@
-* {
+/** {
     color: white;
     font-family: Arial;
-}
+}*/
 body {
     margin: 0px;
 }
@@ -16,6 +16,7 @@ html {
     background: #a81ae5;   
     margin: 0px 5px 0px 5px;
     border-radius: 5%;
+    color: white;
 }
 .headerBox {
     display: flex;
