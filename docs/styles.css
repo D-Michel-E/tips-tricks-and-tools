@@ -30,6 +30,7 @@ body {
     opacity: 1;
 }
 .headerBox {
+    background-attachment: fixed;
     display: flex;
     opacity: 0.75;
     flex-direction: column;
