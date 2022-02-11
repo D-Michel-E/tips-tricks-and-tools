@@ -6,30 +6,33 @@
         <meta name="author" content="Michel Erny" />
         <meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.ico" />
-        <!--  <link rel="icon" href="/favicon.svg" type="image/svg+xml"> -->
         <link rel="stylesheet" href="/tips-tricks-and-tools/styles.css" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.min.js"></script>
+        <script src="https://raw.githubusercontent.com/LexmarkWeb/csi.js/master/csi.min.js"></script>
     </head>
 
     <style>
         * {
             color: white;
             font-family: Arial;
+            padding: 20px;
         }
         html {
-            background-color: grey;
+            background-color: #000000;
         }
         .headerButtons {
             flex: 1;
             height: 100%;
             text-align: center;
+            background: grey;
         }
         .headerBox {
             display: flex;
+            opacity: 0.5
             flex-direction: row;
             height: 10em;
-            background: grey;
+            background: purple;
             padding: 20px;
             border-radius: 1px 1px 15px 15px;
         }
@@ -37,10 +40,10 @@
     
     <div>
         <div class="headerBox">
-            <div class="headerButtons"> abcdefgh </div>
-            <div class="headerButtons"> bcdefghi </div>
-            <div class="headerButtons"> cdefghij </div>
-            <div class="headerButtons"> defghijk </div>
+            <button class="headerButtons"> abcdefgh </button>
+            <button class="headerButtons"> bcdefghi </button>
+            <button class="headerButtons"> cdefghij </button>
+            <button class="headerButtons"> defghijk </button>
         </div>
     </div>
     
