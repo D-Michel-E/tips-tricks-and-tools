@@ -11,8 +11,7 @@ html {
 .headerButtons {
     opacity: 0.75
     display: inline-block;
-    height: auto;
-    width: auto;
+    flex: auto;
     border: none;
     text-align: center;
     background: #a81ae5;   
