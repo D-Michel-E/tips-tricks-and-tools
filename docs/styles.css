@@ -16,7 +16,7 @@ body {
 .headerButtons {
     opacity: 0.75;
     display: inline-block;
-    flex: auto;
+    /*flex: auto;*/
     border: 2px solid white;
     text-align: center;
     background: #a81ae5;   
@@ -26,13 +26,16 @@ body {
     /*height: 75%;*/
     cursor: pointer;
     transform: rotate(-90deg);
+    width:1%;
+    height:1%
     animation: debuga 5s linear 2s infinite alternate;
 }
 @keyframes debuga {
-    0% (height:1%;)
-    25% (height:25%;)
-    50% (height:50%;)
-    100% (height:100%;)
+    0% (height:1%; width:100%;)
+    25% (height:50%; width:50%;)
+    50% (height:100%; width:1%;)
+    75% (height:50%; width:50%;)
+    100% (height:1%; width:100%;)
 }
 .headerButtons:hover {
     opacity: 1;
