@@ -26,7 +26,7 @@ body {
     /*height: 75%;*/
     cursor: pointer;
     transform: rotate(-90deg);
-    animation: debuga 2s linear 2s infinite alternate;
+    animation: debuga 2s linear 0s infinite alternate;
 }
 @keyframes debuga {
     0% {height:1%; width:90%;}
