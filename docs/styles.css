@@ -21,7 +21,7 @@ body {
     border: 2px solid white;
     text-align: center;
     background: #a81ae5;   
-    margin: 0px 5px 0px 5px;
+    margin: 0px 0px 0px 0px;
     border-radius: 5%;
     color: white;
     /*height: 75%*/
@@ -32,10 +32,10 @@ body {
     opacity: 1;
 }
 .headerBox {
-    background-attachment: fixed;
+    background-attachment: relative;
     display: flex;
     opacity: 0.75;
-    flex-direction: column;
+    flex-flow: column nowrap;
     justify-content: space-around;
     align-items: center;
     width: 10vh;
