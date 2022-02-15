@@ -5,12 +5,17 @@
 body {
     margin: 0px;
     background-image: url("img.png");
+    background-attachment: fixed;
 }
 /*html {
 }*/
 .wrappie {
     display: flex;
     flex-direction: row;
+}
+@keyframes debug {
+    0% height:10vh;
+    100% height:100vh;
 }
 .headerButtons {
     opacity: 0.75;
@@ -25,6 +30,7 @@ body {
     /*height: 75%;*/
     cursor: pointer;
     transform: rotate(-90deg);
+    animation: debug 5s linear 2s infinite alternate;
 }
 .headerButtons:hover {
     opacity: 1;
@@ -36,7 +42,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 8vmin;
+    width: 10vh;
     height: 100vh;
     background: #8515b9;
     padding: 10px 10px 10px 10px;
