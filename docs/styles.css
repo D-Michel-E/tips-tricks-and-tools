@@ -14,8 +14,8 @@ body {
     flex-direction: row;
 }
 @keyframes debug {
-    0% height:10vh;
-    100% height:100vh;
+    0% (height:1%);
+    100% (height:100%);
 }
 .headerButtons {
     opacity: 0.75;
