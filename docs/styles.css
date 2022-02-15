@@ -13,10 +13,6 @@ body {
     display: flex;
     flex-direction: row;
 }
-@keyframes debug {
-    0% (height:1%);
-    100% (height:100%);
-}
 .headerButtons {
     opacity: 0.75;
     display: inline-block;
@@ -31,6 +27,10 @@ body {
     cursor: pointer;
     transform: rotate(-90deg);
     animation: debug 5s linear 2s infinite alternate;
+}
+@keyframes debug {
+    0% (height:1%;)
+    100% (height:100%;)
 }
 .headerButtons:hover {
     opacity: 1;
