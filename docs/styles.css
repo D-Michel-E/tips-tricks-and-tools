@@ -6,7 +6,9 @@ body {
     margin: 0px;
     background-image: url("img.png");
     background-attachment: fixed;
-    height: 90vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 /*html {
 }*/
