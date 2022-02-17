@@ -16,7 +16,7 @@ body {
 .contentBox * {
     background: #8515b9;
     border-radius: 15px 15px 15px 15px;
-    opacity: 75%
+    opacity: 75%;
 }
 .wrappie {
     display: flex;
