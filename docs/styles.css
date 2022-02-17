@@ -16,8 +16,15 @@ body {
 }*/
 .contentBox * {
     background: #8515b9;
+    padding: 10px 10px 10px 10px;
     border-radius: 15px 15px 15px 15px;
-    opacity: 75%;
+    opacity: 0.75;
+}
+.contentBox * * {
+    background: #a81ae5;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px 15px 15px 15px;
+    opacity: 0.75;
 }
 .wrappie {
     display: flex;
@@ -35,16 +42,22 @@ body {
     border-radius: 10%;
     color: white;
     cursor: pointer;
+    flex: 1 1 auto;
+    transition: opacity 500ms ease-out 100ms;
     transition: flex 500ms ease-out 100ms;
+}
+
+span {
+    color: white;
 }
 
 .headerButtons:hover {
     opacity: 1;
-    flex-grow: 2;
+    flex: 2 1 auto;
 }
 .headerButtons:focus {
     opacity: 1;
-    flex-grow: 2;
+    flex: 2 1 auto;
 }
 
 .headerBox {
