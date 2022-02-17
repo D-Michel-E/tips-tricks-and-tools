@@ -13,6 +13,11 @@ body {
 }
 /*html {
 }*/
+.contentBox * {
+    background: #8515b9;
+    border-radius: 15px 15px 15px 15px;
+    opacity: 75%
+}
 .wrappie {
     display: flex;
     flex-flow: row nowrap;
@@ -44,11 +49,12 @@ body {
     background-attachment: relative;
     display: flex;
     opacity: 0.75;
-    flex-flow: column nowrap;
+    flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+    align-self: left;
     width: 95%;
-    height: 5vw;
+    max-height: 10vw;
     background: #8515b9;
     /*padding: 10px 10px 10px 10px;*/
     border-radius: 1px 1px 15px 15px;
