@@ -10,6 +10,7 @@ body {
     width: 100vw;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 /*html {
 }*/
@@ -24,6 +25,7 @@ body {
     align-items: center;
     height: 100%;
     width: 100%;
+    
 }
 .headerButtons {
     opacity: 0.75;
@@ -38,11 +40,11 @@ body {
 
 .headerButtons:hover {
     opacity: 1;
-    flex-grow: 10%;
+    flex-grow: 2;
 }
 .headerButtons:focus {
     opacity: 1;
-    flex-grow: 10%;
+    flex-grow: 2;
 }
 
 .headerBox {
@@ -56,7 +58,8 @@ body {
     width: 95%;
     max-height: 10vw;
     background: #8515b9;
-    /*padding: 10px 10px 10px 10px;*/
+    padding: 0px 10px 0px 10px;
     border-radius: 1px 1px 15px 15px;
     transform: rotate(-90deg);
+    
 }
