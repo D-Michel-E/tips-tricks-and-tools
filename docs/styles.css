@@ -14,13 +14,13 @@ body {
 }
 /*html {
 }*/
-.contentBox * {
+.subcontent{
     background: #8515b9;
     padding: 10px 10px 10px 10px;
     border-radius: 15px 15px 15px 15px;
     opacity: 0.75;
 }
-.contentBox * * {
+.contentBox * {
     background: #a81ae5;
     padding: 10px 10px 10px 10px;
     border-radius: 15px 15px 15px 15px;
@@ -67,7 +67,6 @@ span {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    align-self: left;
     width: 95%;
     max-height: 10vw;
     background: #8515b9;
