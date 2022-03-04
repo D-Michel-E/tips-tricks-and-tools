@@ -66,11 +66,11 @@ span {
 .headerBox {
     background-attachment: relative;
     display: flex;
+    flex: 1 10 content;
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: center;
     height: 95%;
-    max-width: 6vw;
     background: rgba(133,21,185,0.75);
     padding: 5px 15px 15px 5px;
     border-radius: 1px 15px 15px 1px;
