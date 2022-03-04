@@ -30,7 +30,6 @@ body {
     align-items: center;
     height: 100%;
     width: 100%;
-    
 }
 .headerButtons {
     border: 1px solid white;
@@ -63,11 +62,9 @@ span {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    width: 95%;
-    max-height: 10vw;
+    height: 95%;
+    max-width: 10vw;
     background: rgba(133,21,185,0.75);
-    padding: 5px 15px 5px 15px;
-    border-radius: 1px 1px 15px 15px;
-    transform: rotate(-90deg);
-    position: 0 0;
+    padding: 5px 15px 15px 5px;
+    border-radius: 1px 15px 15px 1px;
 }
