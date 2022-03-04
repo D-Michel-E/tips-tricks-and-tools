@@ -42,13 +42,12 @@ body {
     cursor: pointer;
     transition: background 500ms ease-out 100ms;
     transition: flex 500ms ease-out 100ms;
-    transition: transform 500ms ease-out 100ms;
     text-align: center;
     color: white;
 }
 .headerButtons * {
     transform: rotate(-90deg);
-    font-size: 85%
+    font-size: auto;
 /*     height: fit-content; */
 }
 span {
