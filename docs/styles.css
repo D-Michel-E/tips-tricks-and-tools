@@ -48,7 +48,7 @@ body {
 }
 .headerButtons * {
     transform: rotate(-90deg);
-    font-size: 100%
+    font-size: 85%
 /*     height: fit-content; */
 }
 span {
@@ -56,13 +56,13 @@ span {
 }
 .headerButtons:hover {
     background: rgba(168,26,229,1);
-/*     flex: 2 1 auto; */
-    transform: rotate(90deg);
+    flex: 2 1 content;
+/*     transform: rotate(90deg); */
 }
 .headerButtons:focus {
     background: rgba(168,26,229,1);
-/*     flex: 2 1 auto; */
-    transform: rotate(90deg);
+    flex: 2 1 content;
+/*     transform: rotate(90deg); */
 }
 .headerBox {
     background-attachment: relative;
