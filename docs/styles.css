@@ -47,7 +47,7 @@ body {
 }
 .headerButtons * {
     transform: rotate(-90deg);
-    font-size: auto;
+/*     font-size: auto; */
 }
 span {
     color: white;
