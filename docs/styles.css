@@ -3,7 +3,7 @@
     font-family: Arial;
 }*/
 body {
-/*     margin: 0px; */
+    margin: 0px;
     background-image: url("img.png");
     background-attachment: fixed;
     height: 99vh;
@@ -41,6 +41,7 @@ body {
     flex: 1 1 auto;
     transition: background 500ms ease-out 100ms;
     transition: flex 500ms ease-out 100ms;
+    transform: 90deg;
     
 }
 span {
