@@ -41,8 +41,7 @@ body {
     flex: 1 1 auto;
     transition: background 500ms ease-out 100ms;
     transition: flex 500ms ease-out 100ms;
-    transform: 90deg;
-    
+    writing-mode: sideways-lr;
 }
 span {
     color: white;
