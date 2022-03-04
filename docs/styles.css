@@ -32,20 +32,22 @@ body {
     width: 99%;
 }
 .headerButtons {
-    border: 1px solid purple;
-    text-align: center;
-    background: rgba(168,26,229,0.75);
-    border-radius: 10%;
-    color: white;
-    cursor: pointer;
-    flex: 1 1 auto;
+    flex: 1 1 content;
     max-width: 95%;
+    background: rgba(168,26,229,0.75);
+    border: 1px solid purple;
+    border-radius: 10%;
+    padding: 0px;
+    cursor: pointer;
     transition: background 500ms ease-out 100ms;
     transition: flex 500ms ease-out 100ms;
     transition: transform 500ms ease-out 100ms;
+    text-align: center;
+    color: white;
 }
 .headerButtons * {
     transform: rotate(-90deg);
+/*     height: fit-content; */
 }
 span {
     color: white;
