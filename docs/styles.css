@@ -41,7 +41,7 @@ body {
     flex: 1 1 auto;
     transition: background 500ms ease-out 100ms;
     transition: flex 500ms ease-out 100ms;
-    writing-mode: sideways-lr;
+    writing-mode: lr;
     text-orientation: sideways;
     transition: transform 500ms ease-out 100ms;
 }
