@@ -42,6 +42,7 @@ body {
     transition: background 500ms ease-out 100ms;
     transition: flex 500ms ease-out 100ms;
     writing-mode: sideways-lr;
+    transition: transform 500ms ease-out 100ms;
 }
 span {
     color: white;
@@ -49,10 +50,12 @@ span {
 .headerButtons:hover {
     background: rgba(168,26,229,1);
     flex: 2 1 auto;
+    transform: rotate(90deg);
 }
 .headerButtons:focus {
     background: rgba(168,26,229,1);
     flex: 2 1 auto;
+    transform: rotate(90deg);
 }
 .headerBox {
     background-attachment: relative;
