@@ -42,8 +42,6 @@ body {
     max-width: 95%;
     transition: background 500ms ease-out 100ms;
     transition: flex 500ms ease-out 100ms;
-    writing-mode/*: horizontal-lr;
-    text-orientation: sideways*/;
     transition: transform 500ms ease-out 100ms;
 }
 .headerButtons * {
