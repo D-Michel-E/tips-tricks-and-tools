@@ -6,7 +6,7 @@ body {
     margin: 1vh 1vw 1vh 0vw;
     background-image: url("img.png");
     background-attachment: fixed;
-    height: 99vh;
+    height: 96vh;
     width: 98vw;
     display: flex;
     align-items: center;
@@ -27,47 +27,7 @@ body {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    height: 95vh;
-    width: 98vw;
-}
-.headerButtons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1 1 content;
-    width: 100%;
-    background: rgba(168,26,229,0.75);
-    border: 1px solid purple;
-    border-radius: 10%;
-    margin: 1px;
-    cursor: pointer;
-    transition: background 500ms ease-out 100ms;
-    transition: flex 500ms ease-out 100ms;
-}
-.headerButtons * {
-    transform: rotate(-90deg);
-    text-align: center;
-    color: white;
-    position: relative;
-    margin: 0px;
-    width: fit-content;
-    height: fit-content;
-/*     font-size:auto; */
-}
-span {
-    color: white;
-}
-.headerButtons:hover {
-    background: rgba(168,26,229,1);
-    flex: 2 1 content;
-}
-.headerButtons:focus {
-    background: rgba(168,26,229,1);
-    flex: 2 1 content;
-}
-#youAreHere {
-    background: rgba(168,26,229,1);
-    flex: 1.25 1 content;
+    height: 100%;
 }
 .headerBox {
     display: flex;
@@ -81,4 +41,43 @@ span {
     background: rgba(133,21,185,0.75);
     padding: 5px 15px 15px 5px;
     border-radius: 1px 15px 15px 1px;
+}
+.headerButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 content;
+    width: 100%;
+    border-radius: 10%;
+    margin: 1px;
+    cursor: pointer;
+    background: rgba(168,26,229,0.75);
+    border: 1px solid purple;
+    transition: background 500ms ease-out 100ms;
+    transition: flex 500ms ease-out 100ms;
+}
+.headerButtons * {
+    transform: rotate(-90deg);
+    text-align: center;
+    color: white;
+    position: relative;
+    margin: 0px;
+    width: fit-content;
+    height: fit-content;
+    font-size: large;
+}
+.headerButtons:hover {
+    background: rgba(168,26,229,1);
+    flex: 2 1 content;
+}
+.headerButtons:focus {
+    background: rgba(168,26,229,1);
+    flex: 2 1 content;
+}
+#youAreHere {
+    background: rgba(168,26,229,1);
+    flex: 1.25 1 content;
+}
+span {
+    color: white;
 }
