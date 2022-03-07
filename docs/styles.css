@@ -42,11 +42,14 @@ body {
     cursor: pointer;
     transition: background 500ms ease-out 100ms;
     transition: flex 500ms ease-out 100ms;
-    text-align: center;
-    color: white;
 }
 .headerButtons * {
     transform: rotate(-90deg);
+    text-align: center;
+    color: white;
+    position: relative;
+    left:50%;
+    top:50%;
 /*     font-size: auto; */
 }
 span {
