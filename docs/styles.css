@@ -2,11 +2,6 @@
     color: white;
     font-family: Arial;
 }*/
-html {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 body {
     background-image: url("img.png");
     background-attachment: fixed;
@@ -15,6 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 4px 4px 4px 0px;
 }
 .subcontent{
     background: rgba(133,21,185,0.75);
