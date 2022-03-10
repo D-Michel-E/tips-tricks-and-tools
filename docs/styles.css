@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 4px 4px 4px 0px;
+    margin: 2vh 0px 0px 0px;
 }
 .subcontent{
     background: rgba(133,21,185,0.75);
